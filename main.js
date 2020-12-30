@@ -1,5 +1,5 @@
 function extractEachKth(nums, index) {
-   //  write code here.
+   return nums.filter(num => num % index != 0)
 }
 
 
